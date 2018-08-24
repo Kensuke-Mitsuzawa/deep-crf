@@ -1,0 +1,14 @@
+Barack  B−PERSON
+Hussein I−PERSON
+Obama   E−PERSON
+is      O
+a       O
+man     O
+.       O
+
+Yuji   B−PERSON
+Matsumoto E−PERSON
+is     O
+a      O
+man    O
+.      O
