@@ -244,9 +244,27 @@ deep-crf                                                                        
 [Huang et al. (2015)](https://arxiv.org/abs/1508.01991)                         |   -   |   -    | 94.46
 
 
+# For developers
 
+## Environment of development
 
+Develop environment is provided with Docker.
 
+You're able to make this environment with docker-compose.
 
+Following commands keep devel-container up.
 
+```
+$ docker-compose build
+(Some messages here)
+$ docker-compose up
+Recreating deep-crf_deep-crf-dev_1 ... done
+Attaching to deep-crf_deep-crf-dev_1
+```
+
+You're able to login or call Python in devel-container (In another terminal)
+
+```
+$ docker exec -it deep-crf_deep-crf-dev_1 bash
+```
 

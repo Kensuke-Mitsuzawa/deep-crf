@@ -14,9 +14,9 @@ RUN apk add --no-cache bash wget && \
 RUN conda install chainer=2.1.0
 RUN pip install h5py Click
 
-RUN mkdir /codes
-ADD . /codes/deep-crf
-WORKDIR /codes/deep-crf
-RUN python setup.py install
+#RUN mkdir /codes
+#ADD . /codes/deep-crf
+#WORKDIR /codes/deep-crf
+#RUN python setup.py install
 
 CMD ["/bin/bash"]
